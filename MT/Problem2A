@@ -1,0 +1,20 @@
+First Expression:
+5.0 / 4 - 4 / 5
+
+1.25 - 0
+
+Answer: 1.25
+
+Second Expression:
+7 < 9 - 5 && 3 % 0 == 3
+
+false && ERROR
+
+Answer: false
+
+Java sees the left side false, so will not compute the right side, which would cause an error.
+
+Third Expression:
+"B" + 8 + 4
+
+Answer: B84
